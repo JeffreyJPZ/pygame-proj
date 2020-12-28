@@ -229,8 +229,9 @@ def main():
         clock.tick(FPS)
         
         score_timer += 1
-
-        backg_scroll()
+        
+        if not game_over:
+            backg_scroll()
         
         redraw_win()
         
