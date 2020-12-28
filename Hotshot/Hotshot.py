@@ -355,7 +355,7 @@ def instructions():
 
     while run:
         display_instructions = instructions_font.render(f'Cars/spikes BAD | Tires/wrenches GOOD | Press any button to go back', 1, (255,255,255))
-        display_instructions2 = instructions_font.render(f'Images used belong to their respective owners', 1, (255,0,0))
+        display_instructions2 = instructions_font.render(f'All images used belong to their respective owners', 1, (255,0,0))
         
         win.fill((0,0,0))
         win.blit(display_instructions, (win_width / 2 - display_instructions.get_width() / 2, win_height / 3))
