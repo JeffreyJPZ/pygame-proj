@@ -249,7 +249,7 @@ def main():
 
         if len(enemies) == 0 and len(wrenches) == 0 and len(tires) == 0 and len(spikes) == 0:       # If all objects have been removed
             level += 1 
-            enemy_num += 5                      # Change enemy number as needed, 3-5 is fairly balanced
+            enemy_num += 4                      # Change enemy number as needed, 3-5 is fairly balanced
 
             if level % 5 == 0:                  # Every x levels the game and object speed increases
                 game_speed += 3
