@@ -253,7 +253,7 @@ def main():
             enemy_num += 4                      # Change enemy number as needed, 3-5 is fairly balanced
 
             if level % 5 == 0:                  # Every x levels the game and object speed increases
-                game_speed += 3
+                game_speed += 4
                 scroll_speed += 5
                 spawn_win_width *= 2
             
